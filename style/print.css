@@ -1,0 +1,7 @@
+@import url('reset.css');
+@import url('box-sizing.css');
+@import url('typography.css');
+
+table {
+	border: 1px black solid;
+}

@@ -1,0 +1,11 @@
+h2, h3 {
+	display: block;
+	text-align: center;
+}
+
+table {
+	text-align: center;
+}
+tr {
+	border-bottom: 1px solid black;
+}

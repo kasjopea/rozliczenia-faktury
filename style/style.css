@@ -1,0 +1,201 @@
+@import url('reset.css');
+@import url('box-sizing.css');
+@import url('typography.css');
+
+html {
+	font-size: 62.5%;
+	color: rgb(83,92,97);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	width: 100%;
+	pointer: cursor;
+}
+
+#logOut{
+	float: right;
+	padding-right:5px;
+	cursor: pointer;
+}
+
+#logDiv {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#log {
+	width: 200px;
+}
+
+.active {
+	background-color: #660A32;
+	color: #fff;
+}
+
+body {
+	background-image: url('../img/tlo1.jpg');
+	background-size: cover;
+	}
+header {
+	width: 100%;
+}
+
+blockquote {
+	padding-top: 10px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+blockquote p {
+	text-align: right;
+}
+
+aside {
+	background-color: #fff;
+	padding: 0;
+	float: left;
+}
+
+aside ul {
+	margin:0;
+	padding: 0;
+}
+
+aside ul li {
+	text-align: center;
+	display: inline-block;
+	margin:0;
+	padding: 0 5px;
+}
+
+aside ul li:hover {
+	background-color: #660A32;
+}
+
+main {
+	clear: both;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div h2{
+	display: block;
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+nav ul li:hover {
+	background-color: #660A32;
+}
+
+nav ul li:active {
+	background-color: #660A32;
+}
+nav {
+	background-color: gray;
+	color: #fff;
+}
+
+button {
+	width: 100%;
+	background-color:  #660A32;
+	border: none;
+	color: #fff;
+	line-height: 3rem;
+	height: 3rem;
+}
+
+main h3 {
+	width:100%;
+	text-align: center;
+	margin: 0;
+}
+
+fieldset {
+	float: left;
+	padding: 1.5%;
+	width:100%;
+}
+
+form {
+	width: 25%;
+	padding: 1%;
+	float: left;
+}
+
+form input, form select {
+	width: 100%;
+	background-color: lightgray;
+	line-height: 2.4rem;
+	height: 2.4rem;
+	border: 1px gray solid;
+	padding: 0;
+}
+
+
+form input:focus, form select:focus {
+	border: 1px #660A32 solid;
+	background-color: #fff;
+}
+
+form fieldset:last-child{
+	clear: both;
+	float:right;
+}
+
+table tr {
+	border-bottom: 1px solid black;
+}
+
+table tr:first-child{
+	background-color: lightgray;	
+	color: black;
+	border: none;
+	padding: 0 3px;
+}
+table tr:first-child td{
+	padding: 0 5px;
+}
+td {
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+//TELEFONY
+@media all and (max-width:360px ) {
+
+}
+
+//TABLET i PC
+
+@media all and (min-width:361px) {
+	
+
+}
